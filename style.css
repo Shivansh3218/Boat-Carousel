@@ -1,0 +1,240 @@
+body {
+    background-color: black;
+}
+
+.heading-of-best-seller,.heading-of-daily-deals {
+    color: aliceblue;
+    text-align: center;
+}
+
+.best-seller-wrapper-div {
+    position: relative;
+    width: auto;
+    height: 30rem;
+    margin-left: 250px;
+}
+
+.container1, .container3 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    justify-content: space-around;
+    margin-left: -130px;
+}
+.container2,.container4 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    height: auto;
+    justify-content: space-around;
+    margin-left: -130px;
+}
+
+h4 {
+    height: 100px;
+    color: rgb(0, 0, 0);
+    background-color: black;
+
+
+}
+
+#redstar {
+    color: red;
+    background-color: red;
+}
+
+.best-seller-div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    position: relative;
+}
+
+.flash {
+    width: 40px;
+    font-size: small;
+    height: 15px;
+    padding: 2px;
+    background-color: rgb(255, 255, 69);
+    position: absolute;
+    z-index: 10;
+    border-radius: 0 7px 7px 0;
+    top: 15px;
+    text-align: right;
+}
+
+.red {
+    background-color: red;
+    color: white;
+    width: 110px;
+    height: auto;
+    text-align: start;
+
+}
+
+.white {
+    background-color: aliceblue;
+    width: 90px;
+    color: red;
+}
+
+.hello {
+    background-color: red;
+}
+
+
+.wrapper-of-best-seller-images {
+    display: flex;
+    flex-direction: column;
+}
+
+.best-seller-image-front {
+    width: 250px;
+    background-color: rgb(219, 215, 215);
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    -webkit-animation: ease-in-out;
+    transition: 0.7s;
+}
+
+.best-seller-image-back {
+    width: 250px;
+    background-color: rgb(219, 215, 215);
+    height: 200px;
+    border-radius: 10px 10px 0 0;
+    -webkit-animation: ease-in-out;
+    transition: 0.7s;
+    position: absolute;
+}
+
+
+.best-seller-image-back:hover {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.inside-best-seller {
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 10px 10px;
+    line-height: 0;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+}
+
+
+.button-flash-sale {
+    background-color: rgb(255, 188, 32);
+    width: 90%;
+    border-radius: 7px;
+    padding: 5px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+}
+
+.button-flash-sale:hover {
+    cursor: pointer;
+}
+
+.price-and-discount {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+}
+
+.earlier-price {
+    font-size: small;
+    opacity: 0.7;
+    text-decoration: line-through;
+    line-height: 0;
+}
+
+
+hr {
+    z-index: 100;
+    width: 90%;
+    color: black;
+}
+
+h5 {
+    font-size: large;
+    color: maroon;
+    font-style: bold;
+    margin-left: -100px;
+}
+
+.save-money {
+    margin-left: -70px;
+    margin-top: 0px;
+}
+
+.icon-para {
+    font-size: small;
+    align-self: flex-start;
+    word-spacing: 7px;
+    margin-left: 0px;
+}
+
+.visible {
+    display: none;
+    visibility: hidden;
+}
+
+
+
+
+.change-carousel-button-best-seller-right ,
+.change-carousel-button-best-seller-right1{
+    position: absolute;
+    right: 0%;
+    top: 230px;
+    z-index: 100;
+    width: 50px;
+    height: 40px;
+    background-color: aliceblue;
+    color: red;
+    font-size: xx-large;
+    border: none;
+    border-radius: 5px;
+}
+.change-carousel-button-best-seller-left,
+.change-carousel-button-best-seller-left1{
+    position: absolute;
+    left: -250px;
+    top: 230px;
+    z-index: 100;
+    width: 50px;
+    height: 40px;
+    background-color: aliceblue;
+    color: red;
+    font-size: xx-large;
+    border: none;
+    border-radius: 5px;
+    display: none;
+}
+
+.change-carousel-button-best-seller-left,
+.change-carousel-button-best-seller-left1,
+.change-carousel-button-best-seller-right ,
+.change-carousel-button-best-seller-right1:hover {
+    cursor: pointer;
+}
+
+.change-me{
+    left: -250px;
+}
